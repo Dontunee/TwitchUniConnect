@@ -50,10 +50,13 @@ namespace TwitchUniConnect.Social.Domain.Aggregates.UserAggregate
 
         #endregion
 
+
+        #region Base class Overrides
         protected override IEnumerable<object> GetAtomicValues()
         {
             yield return FirstName;
             yield return LastName;
         }
+        #endregion
     }
 }
