@@ -30,6 +30,7 @@ namespace TwitchUniConnect.Social.Domain.Aggregates.UserAggregate
         
         public static Name Create(string firstName, string lastName)
         {
+            //validation for name
             return new Name(firstName, lastName);
         }
 

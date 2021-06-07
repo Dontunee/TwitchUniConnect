@@ -18,6 +18,7 @@ namespace TwitchUniConnect.SharedKernel.Types
 
         public static EmailAddress Create(string emailName, string domain)
         {
+            //To do validation 
             return new EmailAddress()
             {
                 EmailName = emailName,
