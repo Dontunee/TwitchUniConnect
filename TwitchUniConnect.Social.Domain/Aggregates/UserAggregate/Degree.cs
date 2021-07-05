@@ -15,7 +15,7 @@ namespace TwitchUniConnect.Social.Domain.Aggregates.UserAggregate
 
         public static readonly Degree PostDoctorate = new Degree(3, "Post-Doctorate Research");
 
-        private Degree(int value, string description) : (value,description)
+        private Degree(int value, string description) : base(value,description)
         {
 
         }

@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Social", "Social", "{D0656D12-99B2-4090-BB5A-4BD2D236F04A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schedule", "Schedule", "{29867A2A-1237-4D3A-9A68-5E742FA819BF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GradeBook", "GradeBook", "{CA5643A8-938B-458F-BD00-C852FDF4FF25}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationLayer", "ApplicationLayer", "{778F2F48-EFA4-410E-9B21-89DFB9BCE6B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnds", "FrontEnds", "{A97EDF9B-538C-43A1-9902-554924EB314D}"
@@ -19,15 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{AE0A02
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{2F6C0C6C-A1E3-4F2B-8766-2C8FE820B4F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchUniConnect.Social.Domain", "TwitchUniConnect.Social.Domain\TwitchUniConnect.Social.Domain.csproj", "{29256FD9-85C0-434D-903B-4F316C5FF5B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchUniConnect.Social.Domain", "TwitchUniConnect.Social.Domain\TwitchUniConnect.Social.Domain.csproj", "{29256FD9-85C0-434D-903B-4F316C5FF5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchUniConnect.Social.UnitTests", "TwitchUniConnect.Social.UnitTests\TwitchUniConnect.Social.UnitTests.csproj", "{9FB352F6-8014-4492-BA25-C9B2FBAAD251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchUniConnect.Social.UnitTests", "TwitchUniConnect.Social.UnitTests\TwitchUniConnect.Social.UnitTests.csproj", "{9FB352F6-8014-4492-BA25-C9B2FBAAD251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchUniConnect.Social.DataAccessLayer", "TwitchUniConnect.Social.DataAccessLayer\TwitchUniConnect.Social.DataAccessLayer.csproj", "{7FEA2B6C-B88A-4373-85F5-9559646375FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchUniConnect.Social.DataAccessLayer", "TwitchUniConnect.Social.DataAccessLayer\TwitchUniConnect.Social.DataAccessLayer.csproj", "{7FEA2B6C-B88A-4373-85F5-9559646375FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchUniConnect.SharedKernel", "TwitchUniConnect.SharedKernel\TwitchUniConnect.SharedKernel.csproj", "{C5B8FCDE-9733-40DA-8BE4-931BDB2662B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchUniConnect.SharedKernel", "TwitchUniConnect.SharedKernel\TwitchUniConnect.SharedKernel.csproj", "{C5B8FCDE-9733-40DA-8BE4-931BDB2662B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwicthUniConnect.SharedKernel.UnitTests", "TwicthUniConnect.SharedKernel.UnitTests\TwicthUniConnect.SharedKernel.UnitTests.csproj", "{85907A0D-C17E-4EE1-88B3-53A1F24381CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwicthUniConnect.SharedKernel.UnitTests", "TwicthUniConnect.SharedKernel.UnitTests\TwicthUniConnect.SharedKernel.UnitTests.csproj", "{85907A0D-C17E-4EE1-88B3-53A1F24381CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
